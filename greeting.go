@@ -1,7 +1,6 @@
 package greeting2
 
 import (
-	"fmt"
 	"time"
 )
 
