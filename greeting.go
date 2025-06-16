@@ -1,15 +1,11 @@
-package main
+package greeting2
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
-	fmt.Println(Greet())
-}
-
-func Greet() string {
+func Do() string {
 	hour := time.Now().Hour()
 	switch {
 	case hour >= 4 && hour < 10:
